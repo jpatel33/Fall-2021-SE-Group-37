@@ -5,5 +5,5 @@ install:
   - pip install -r requirements.txt
 #Run Tests
 script:
-  - pytest test/cube_test.py
+  - pytest test/test_cube.py
 
