@@ -1,0 +1,9 @@
+language: python
+python:
+ - "3.6"
+install:
+  - pip install -r requirements.txt
+#Run Tests
+script:
+  - pytest test/cube_test.py
+
